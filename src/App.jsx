@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom'; // Ensure this is correct
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Highlights from "./components/Highlights";
@@ -8,7 +9,6 @@ import HowitWorks from "./components/HowitWorks";
 import Footer from "./components/Footer";
 import * as Sentry from '@sentry/react';
 import ReactGA from 'react-ga';
-import { useLocation } from 'react-router-dom';
 
 // Initialize Google Analytics
 ReactGA.initialize('G-NRNZKBHXQ6');
